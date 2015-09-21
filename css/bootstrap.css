@@ -10,7 +10,8 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  background: url('../images/grey_wash_wall.png') repeat 0 0;
+  background: url('../images/backdrop.jpg') no-repeat center center;
+  background-size: cover;
   margin: 0;
 }
 article,
@@ -5007,7 +5008,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #FFFFFF;
+  background: url('../images/grey_wash_wall.png') repeat 0 0;
 }
 .jumbotron h1,
 .jumbotron .h1 {
