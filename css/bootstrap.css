@@ -10,6 +10,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  background: url('../images/grey_wash_wall.png') repeat 0 0;
   margin: 0;
 }
 article,
@@ -1085,8 +1086,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -1097,13 +1096,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #999999;
+  color: #FFFFFF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #cc0000;
-  text-decoration: underline;
+  color: #FF1919;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -5008,7 +5007,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #FFFFFF;
 }
 .jumbotron h1,
 .jumbotron .h1 {
